@@ -4,20 +4,8 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text: "Estudar capítulo 3 de Estruturas de Dados",
-      category: "Faculdade",
-      isCompleted: false,
-    },
-    {
-      id: 2,
-      text: "Limpar a sala e organizar os livros",
-      category: "Casa",
-      isCompleted: false,
-    },
-    {
-      id: 3,
-      text: "Revisar exercícios de matemática",
-      category: "Faculdade",
+      text: "Adicionar sua primeira tarefa!",
+      category: "Geral",
       isCompleted: false,
     }
   ]);
